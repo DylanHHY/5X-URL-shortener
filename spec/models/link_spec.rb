@@ -11,6 +11,15 @@ RSpec.describe Link, type: :model do
     expect(link.valid?).to be(true)
   end
 
+  it "is invaild if the URL is not formatted properly" do 
+    link = Link.new(
+      original_url: "hgfuisdhvrijaga",
+      lookup_code: "12345678"
+    )
+
+    expect(link.valid?).to be(false)
+  end
+
   it "is invalid if does an original URL and lookup code" do 
     link = Link.new(
       original_url: "http://www.hungyi.com/articles/how-to-cook",
