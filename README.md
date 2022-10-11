@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+此為短網址服務
 
-Things you may want to cover:
+開啟方式
+1. bundle install
+2. yarn install
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+版本：
+* Ruby 3.1.2
+* Ruby on Rails 6.1.6.1
