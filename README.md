@@ -7,5 +7,5 @@
 2. yarn install
 
 版本：
-Ruby 3.1.2
-Ruby on Rails 6.1.6.1
+* Ruby 3.1.2
+* Ruby on Rails 6.1.6.1
