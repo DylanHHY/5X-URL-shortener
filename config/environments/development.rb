@@ -75,5 +75,4 @@ Rails.application.configure do
   # config.action_cable.disable_request_forgery_protection = true
 
   Rails.application.config.action_view.form_with_generates_remote_forms = true
-  config.hosts << "c1a9-2001-b011-7c06-bd2f-dc5e-a5fd-2d43-f6b7.jp.ngrok.io"
 end

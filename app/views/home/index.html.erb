@@ -5,11 +5,11 @@
   <%= form.submit %>
 <% end %>
 
-<ul>
+<tr>
   <% @original_url.each do |f|%>
-    <li>
-      <%= f.original_url %>
-      <%= "http://localhost:3000/#{f.lookup_code}" %>
-    </li>
+    <td>
+      <p>Original URL: <%= f.original_url %></p>
+      <p>Shortened URL URL: <%= "https://shorturl-5x.herokuapp.com/#{f.lookup_code}" %></p>
+    </td>
   <% end %>
-</ul>
+</tr>
